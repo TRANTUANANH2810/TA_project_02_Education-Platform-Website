@@ -23,6 +23,23 @@ body {
     margin-right: auto;
 }
 
+.line-clamp {
+    /* an so dong neu so dong vuot qua 1 dong */
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1); /* toi da 1 dong*/
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+/* bloai bỏ khoảng cách */
+.break-all {
+    word-break: break-all;
+}
+
 a {
     text-decoration: none;
 }
@@ -361,6 +378,7 @@ a {
     font-size: 1.8rem;
     line-height: 1.67;
     color: #171100;
+    padding-right: 4px;
 }
 
 .popular .rating .value {
