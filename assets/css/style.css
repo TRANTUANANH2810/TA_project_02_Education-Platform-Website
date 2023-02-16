@@ -38,7 +38,7 @@ body {
 
 /* loai bỏ khoảng cách */
 .break-all {
-    /* word-break: break-all; */
+    word-break: break-all;
 }
 
 a {
