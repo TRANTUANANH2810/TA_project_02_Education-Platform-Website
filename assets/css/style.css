@@ -19,8 +19,9 @@ body {
 .main-content {
     width: 1170px;
     max-width: calc(100% - 48px);
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .line-clamp {
@@ -37,7 +38,7 @@ body {
 
 /* loai bỏ khoảng cách */
 .break-all {
-    word-break: break-all;
+    /* word-break: break-all; */
 }
 
 a {
